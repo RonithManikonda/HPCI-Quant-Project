@@ -1,0 +1,26 @@
+[
+{
+  "directory": "/Users/ronithmanikonda/HPC@I/orderbook/build",
+  "command": "/usr/bin/c++  -I/Users/ronithmanikonda/HPC@I/orderbook/include -g -std=c++20 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/ob.dir/src/symbol_book.cc.o -c /Users/ronithmanikonda/HPC@I/orderbook/src/symbol_book.cc",
+  "file": "/Users/ronithmanikonda/HPC@I/orderbook/src/symbol_book.cc",
+  "output": "CMakeFiles/ob.dir/src/symbol_book.cc.o"
+},
+{
+  "directory": "/Users/ronithmanikonda/HPC@I/orderbook/build",
+  "command": "/usr/bin/c++  -I/Users/ronithmanikonda/HPC@I/orderbook/include -g -std=c++20 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/ob.dir/src/order_book.cc.o -c /Users/ronithmanikonda/HPC@I/orderbook/src/order_book.cc",
+  "file": "/Users/ronithmanikonda/HPC@I/orderbook/src/order_book.cc",
+  "output": "CMakeFiles/ob.dir/src/order_book.cc.o"
+},
+{
+  "directory": "/Users/ronithmanikonda/HPC@I/orderbook/build",
+  "command": "/usr/bin/c++  -I/Users/ronithmanikonda/HPC@I/orderbook/include -g -std=c++20 -arch arm64 -o CMakeFiles/ob_demo.dir/src/main.cc.o -c /Users/ronithmanikonda/HPC@I/orderbook/src/main.cc",
+  "file": "/Users/ronithmanikonda/HPC@I/orderbook/src/main.cc",
+  "output": "CMakeFiles/ob_demo.dir/src/main.cc.o"
+},
+{
+  "directory": "/Users/ronithmanikonda/HPC@I/orderbook/build",
+  "command": "/usr/bin/c++  -I/Users/ronithmanikonda/HPC@I/orderbook/include -g -std=c++20 -arch arm64 -o CMakeFiles/ob_tests.dir/tests/test_order_book.cc.o -c /Users/ronithmanikonda/HPC@I/orderbook/tests/test_order_book.cc",
+  "file": "/Users/ronithmanikonda/HPC@I/orderbook/tests/test_order_book.cc",
+  "output": "CMakeFiles/ob_tests.dir/tests/test_order_book.cc.o"
+}
+]
