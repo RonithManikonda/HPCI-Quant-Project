@@ -1,2 +1,0 @@
-/usr/bin/ar qc libob.a CMakeFiles/ob.dir/src/symbol_book.cc.o CMakeFiles/ob.dir/src/order_book.cc.o
-/usr/bin/ranlib libob.a

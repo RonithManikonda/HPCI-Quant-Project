@@ -13,8 +13,20 @@ add_library(ob
 target_include_directories(ob PUBLIC include)
 target_compile_options(ob PRIVATE -Wall -Wextra -Wpedantic)
 
+add_library(ob_ingest
+  src/ingest/soupbin.cc
+  src/ingest/itch.cc
+)
+target_include_directories(ob_ingest PUBLIC include)
+target_compile_options(ob_ingest PRIVATE -Wall -Wextra -Wpedantic)
+target_link_libraries(ob_ingest PUBLIC ob)
+
 add_executable(ob_demo src/main.cc)
 target_link_libraries(ob_demo PRIVATE ob)
+
+add_executable(ob_itch_ingest src/itch_ingest_main.cc)
+target_link_libraries(ob_itch_ingest PRIVATE ob_ingest)
+
 
 add_executable(ob_tests tests/test_order_book.cc)
 target_link_libraries(ob_tests PRIVATE ob)
